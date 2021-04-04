@@ -10,6 +10,7 @@ DEPENDS += "libconfig"
 DEPENDS += "tensorflow-lite"
 
 SRC_URI = "git://github.com/aniladar/patch.git;protocol=https;branch=main"
+SRCREV = "${AUTOREV}"
 
 # Here we specify the source directory, where we do all the building and expect sources to be placed
 S = "${WORKDIR}"
