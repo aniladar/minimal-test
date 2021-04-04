@@ -15,7 +15,6 @@ SRCREV = "${AUTOREV}"
 
 # Here we specify the source directory, where we do all the building and expect sources to be placed
 S = "${WORKDIR}/git"
-B = "${S}"
 
 inherit cmake
 
