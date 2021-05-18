@@ -9,7 +9,7 @@ DEPENDS += "opencv"
 DEPENDS += "libconfig"
 DEPENDS += "tensorflow-lite"
 
-SRC_URI = "git://github.com/aniladar/patch.git;protocol=https;branch=main"
+SRC_URI = "git://github.com/aniladar/minimal-test.git;protocol=https;branch=main"
 
 SRCREV = "${AUTOREV}"
 
